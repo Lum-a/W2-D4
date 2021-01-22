@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <h2>Inspect the page to find the excercises ;-)</h2>
+    <script>
+      function TestMe() {
+        var a = 10;
+        var b = 15;
+        var c = 25;
+        return a * b * c;
+      }
+      function AI(a) {
+        if (a == "hi") {
+          return "hello";
+        } else {
+          return "I dont understarnd";
+        }
+      }
+      function tripleSum(a, b, c) {
+        return a * b * c;
+      }
+      function factorial(a) {
+        let total = a;
+        for (let i = total; i > 1; i--) {
+          total = total * (i - 1);
+        }
+        return total;
+      }
+      function calculator(a, b, c) {
+        // var d = '"' + b + '"';
+        if (b === "+") {
+          return a + c;
+        } else if (b === "-") {
+          return a - c;
+        } else if (b === "*") {
+          return a * c;
+        } else if (b === "/") {
+          return a / c;
+        } else {
+          return "invalid operator";
+        }
+      }
+      function absolute(a) {
+        return Math.abs(a);
+      }
+      function fizzBuzz(a) {
+        if (a % 3 == 0 && a % 7 == 0) {
+          return "fizz buzz";
+        } else if (a % 3 == 0) {
+          return "fizz";
+        } else if (a % 7 == 0) {
+          return "buzz";
+        } else {
+          return a;
+        }
+      }
+      function positive(a) {
+        if (a >= 0) {
+          return true;
+        } else if (a < 0) {
+          return false;
+        } else {
+          return "Not a number";
+        }
+      }
+      function transform(a) {
+        switch (a) {
+          case 0:
+            return "zero";
+            break;
+          case 1:
+            return "one";
+            break;
+          case 2:
+            return "two";
+            break;
+          case 3:
+            return "three";
+            break;
+          case 4:
+            return "four";
+            break;
+          case 5:
+            return "five";
+            break;
+          case 6:
+            return "six";
+            break;
+          case 7:
+            return "seven";
+            break;
+          case 8:
+            return "eight";
+            break;
+          case 9:
+            return "nine";
+            break;
+        }
+        return;
+      }
+      function sum(a) {
+        let total = 0;
+        for (let i in a) {
+          if (typeof a[i] === "number") {
+            total += a[i];
+          }
+        }
+        return total;
+      }
+      function min(a) {
+        let b = a[0];
+        for (let i = 0; i < a.length; i++) {
+          if (a[i] <= b) {
+            b = a[i];
+          }
+        }
+        return b;
+      }
+      let myObject = {
+          name: "john",
+          surname: "doe"
+      }
+
+      function arrayFi(myObject){
+
+      }
+      function objectyFi(arrayFi(myObject)){
+
+      }
+      function revertArray(a){
+
+      }
+      function swappy(a,b){
+
+      }
+    </script>
+  </body>
+</html>
